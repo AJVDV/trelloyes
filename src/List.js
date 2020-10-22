@@ -1,4 +1,4 @@
-import Cards from './Card';
+import Card from './Card';
 import React from 'react';
 import './List.css';
 
@@ -10,7 +10,7 @@ export default function List(props) {
             </header>
             <div className='List-cards'>
                 {props.cards.map((card) =>
-                    <Cards
+                    <Card
                         key={card.id}
                         title={card.title}
                         content={card.content}
