@@ -4,7 +4,7 @@ import renderer from 'react-test-renderer';
 import List from './List';
 import Card from './Card';
 
-let cards = {Card};
+const cards = {Card};
 
 cards.defaultProps = {
     store: {
